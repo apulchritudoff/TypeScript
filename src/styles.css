@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+h1 {
+    font-size: 1.2em;
+    text-align: center;
+    color: #999;
+  }
+  h2, h3 {
+    font-size: 1.05em;
+  }
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+  }
+  body, input[type="text"], button {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  /* everywhere else */
+  * {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }

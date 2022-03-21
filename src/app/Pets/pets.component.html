@@ -1,0 +1,17 @@
+<h2>Pets</h2>
+<ul class="pets">
+    <li *ngFor="let pet of pets, let i = index" (click)="onSelect(pet)">
+        <span class="badge">{{pet.type}}</span> |
+        {{pet.name}}
+    </li>
+</ul>
+
+	
+<div *ngIf="selectedPet">
+ 
+    <h2>{{selectedPet.name}} Details</h2>
+    <div><span>Number of Legs: </span>{{selectedPet.legs}}</div>
+    <div><span>Type: </span>{{selectedPet.type}}</div>
+    <div><span>Can Fly: </span>{{selectedPet.fly}}</div>
+    
+</div>
